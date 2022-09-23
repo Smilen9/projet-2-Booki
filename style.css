@@ -96,6 +96,7 @@ form {
     border: none;
     padding-left: 17px;
     height: 59px;
+    width: 100%;
 }
 
 input::placeholder {
