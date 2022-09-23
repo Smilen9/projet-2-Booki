@@ -68,7 +68,6 @@ button{
     border-radius: 0 15px 15px 0;
     background-color: #0065fc;
     color: white;
-    font-size: 100%;
     font-weight: 700;
     display: flex;
     align-items: center;
@@ -76,7 +75,7 @@ button{
 }
 
 form {
-    border: 2px solid #f2f2f2;
+    border: 3px solid #f2f2f2;
 }
 
 
@@ -87,7 +86,7 @@ form {
 }
 
 .bloc_search i{
-    font-size: 20px;
+    font-size: 18px;
     padding: 20px;
     background-color: #f2f2f2;
     border-radius: 15px 0 0 15px;
@@ -96,13 +95,13 @@ form {
 .bloc_search form input{
     border: none;
     padding-left: 17px;
-    height: 55px;
+    height: 59px;
 }
 
 input::placeholder {
     color: black;
     font-size: large;
-    font-weight: 900 ;
+    font-weight: 600 ;
 }
   
 .mobile_search{
@@ -633,10 +632,14 @@ footer{
 
     form {
         width: 250px;
-        height: 60px;
+        Height: 60px;
         border-radius: 0 20px 20px 0;
         margin-bottom: 5px;
         }
+
+    .bloc_search form input{
+        height: 54px;
+    }
 
     button{
         background-color: white;
@@ -649,7 +652,7 @@ footer{
     }
 
     .mobile_search{
-        margin: -60px;
+        margin: -45px;
         display: inline;
         align-items: center;
     }
