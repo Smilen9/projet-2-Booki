@@ -96,7 +96,7 @@ form {
 .bloc_search form input{
     border: none;
     padding-left: 17px;
-    height: 63px;
+    height: 55px;
 }
 
 input::placeholder {
@@ -627,12 +627,29 @@ footer{
         margin: 15px;
     }
 
-    .bloc_filtre2 {
-        flex-wrap: wrap;
+    .bloc_search i{
+        height: 60px;
+    }
+
+    form {
+        width: 250px;
+        height: 60px;
+        border-radius: 0 20px 20px 0;
+        margin-bottom: 5px;
+        }
+
+    button{
+        background-color: white;
+        padding: 0;
+        height: 60px;
+    }
+    
+    .desktop_search{
+        display: none;
     }
 
     .mobile_search{
-        margin: -50px;
+        margin: -60px;
         display: inline;
         align-items: center;
     }
@@ -641,7 +658,6 @@ footer{
         color: white;
         display: flex;
         text-transform: none;
-
     }
 
     .bloc_filtre{
@@ -651,24 +667,12 @@ footer{
         margin-left: 15px;
     }
 
+    .bloc_filtre2 {
+        flex-wrap: wrap;
+    }
+
     .filtre{
         margin: 5px;
-    }
-
-    form {
-        width: 250px;
-        margin-bottom: 5px;
-    }
-
-    button{
-        background-color: white;
-        padding: 0;
-        margin: -2px;
-    }
-    
-    .desktop_search{
-        display: none;
-        background-color: white;
     }
 
     .info{
