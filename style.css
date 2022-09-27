@@ -258,8 +258,7 @@ input::placeholder {
     background-color:  #F2F2F2;
     width: 30%;
     border-radius: 20px;
-    line-height: 15px;
-    padding: 10px;
+    padding: 0 20px;
 }
 
 .container_popular h2{
@@ -279,7 +278,7 @@ input::placeholder {
     box-shadow:  0 5px 10px rgba(0, 0, 0, .2);
     border-radius: 20px;
     padding: 5px;
-    height: 165px;
+    height: 150px;
     width: 100%;
 }
 
@@ -473,7 +472,7 @@ footer{
 .container_footer{
     display: flex;
     margin: auto;
-    max-width: 1340px;
+    max-width: 1440px;
 }
 
 .container_footer a{
