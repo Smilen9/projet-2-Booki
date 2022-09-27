@@ -149,6 +149,8 @@ input::placeholder {
 
 .filtre:hover{
     transform:scale(1.03);
+    color: white;
+    background-color: #0065fc;
 }
 
 .filtre i{
