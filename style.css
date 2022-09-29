@@ -155,9 +155,10 @@ input::placeholder {
 
 .filtre i{
     background-color: #F2F2F2;
-    padding: 17px;
+    padding: 15px;
     border-radius: 100%;
     color: #0065fc;
+    font-size: normal;
 }
 
 .filtre span{
@@ -262,7 +263,7 @@ input::placeholder {
     text-decoration: none;
     color: black;
 }
-.afficher_plus p{
+.afficher_plus{
     padding-left: 20px;
     font-weight: bolder;
 }
@@ -485,6 +486,7 @@ footer{
 }
 
 .container_footer a{
+    width: 60%;
     text-decoration: none;
     color: black;
     padding: 5px;
@@ -513,7 +515,7 @@ footer{
     main{
         max-width: 100%;
         font-size: 14px;
-    }
+        }
 
     main h1{
         margin: 15px;
@@ -537,7 +539,7 @@ footer{
     }
 
     .filtre{
-        margin: 10px 15px;
+        margin: 10px;
     }
 
     .info{
@@ -575,6 +577,11 @@ footer{
 
     .bloc_footer {
         align-items: center;
+    }
+
+    .bloc_footer a{
+        text-align: center;
+        width: 100%;
     }
   
 }
